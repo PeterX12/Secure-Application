@@ -1,0 +1,82 @@
+/* Locked out page CSS */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+
+.Container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #00b7ff;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    background: #191919;
+    color: white;
+}
+
+.ContainerTwo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #00b7ff;
+    padding: 40px;
+    width: auto;
+    text-align: center;
+    background: #191919;
+    color: black;
+}
+
+.Container input[type = "text"],.Container input[type = "password"]{
+    border: 2px solid #3498db;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 10px;
+    width: 200;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.Container h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.Container input[type = "text"]:focus,.Container input[type = "password"]:focus{
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.Container input[type = "submit"]{
+    border: 2px solid #2ecc71;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.Container input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+
+.Container span{
+    display: block;
+}
+
+.Container a{
+    color: white;
+}
